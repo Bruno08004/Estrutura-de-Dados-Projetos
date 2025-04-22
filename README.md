@@ -1,56 +1,31 @@
 # 💻 Estruturas de Dados em C# - List, Queue e Stack
 
-Este repositório contém **três projetos práticos em C#**, desenvolvidos para demonstrar o uso de três estruturas de dados fundamentais da linguagem: `List<>`, `Queue<>` e `Stack<>`.
+Este repositório contém três exemplos práticos desenvolvidos em C# para demonstrar o uso de estruturas de dados nativas: `List<>`, `Queue<>` e `Stack<>`.
 
 ---
 
 ## 📁 Projetos
 
-### 1. 📝 **Lista de Tarefas com `List<>`**
-> Projeto que simula uma lista de tarefas, permitindo adicionar, listar, buscar e remover tarefas.
+- **Sistema de Produtos com `List<>`**  
+  Cadastramento e busca de produtos em uma lista dinâmica.
 
-- Arquivo principal: `ListaDeTarefas.cs`
-- Funcionalidades:
-  - Adição de novas tarefas
-  - Busca por título
-  - Remoção de tarefas específicas
+- **Simulador de Impressora com `Queue<>`**  
+  Processamento de documentos em ordem de chegada (FIFO).
 
----
-
-### 2. 🖨️ **Simulador de Impressora com `Queue<>`**
-> Simula uma fila de impressão, onde documentos são processados em ordem de chegada.
-
-- Arquivo principal: `SimuladorDeImpressora.cs`
-- Funcionalidades:
-  - Adição de documentos à fila
-  - Impressão sequencial (FIFO)
-  - Visualização da fila atual
+- **Editor de Texto com `Stack<>` (Undo/Redo)**  
+  Funcionalidades de desfazer e refazer ações usando pilhas.
 
 ---
 
-### 3. ↩️ **Editor de Texto com `Stack<>` (Undo/Redo)**
-> Implementa funcionalidades de desfazer e refazer em um editor de texto simples.
+## 📚 Referências
 
-- Arquivo principal: `EditorDeTexto.cs`
-- Funcionalidades:
-  - Empilhamento de ações (Stack)
-  - Desfazer última ação
-  - Refazer ação desfeita
+- [Documentação .NET: List<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1?view=net-8.0)  
+- [Documentação .NET: Queue<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1?view=net-8.0)  
+- [Documentação .NET: Stack<T>](https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1?view=net-8.0)
 
 ---
 
-## 📚 Documentação Oficial
+## ✍️ Autor
 
-Você pode aprender mais sobre as estruturas utilizadas nos projetos acessando a [Documentação da Biblioteca de Classes do .NET (C#)](https://learn.microsoft.com/dotnet/api/system.collections.generic?view=net-8.0):
-
-- [`List<T>`](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1?view=net-8.0)
-- [`Queue<T>`](https://learn.microsoft.com/dotnet/api/system.collections.generic.queue-1?view=net-8.0)
-- [`Stack<T>`](https://learn.microsoft.com/dotnet/api/system.collections.generic.stack-1?view=net-8.0)
-
----
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Bruno Campos Penha  
+Disciplina: Estrutura de Dados
